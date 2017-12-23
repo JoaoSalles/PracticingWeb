@@ -1,0 +1,86 @@
+body {
+    background-color: #232323;
+    font-family: "Montserrat", "Avenir";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+
+}
+
+#Middlecontent {
+    background: white;
+    text-align: center;
+}
+
+#message{
+    color: #21385b;
+    display: inline-block;
+    width: 20%;
+    font-size: 125%;
+    font-weight: 1500;
+}
+
+button{
+    color: #232323;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    padding: 0.35%;
+    letter-spacing: 1px;
+    font-size: 125%;
+    font-weight: 1500;
+    transition: all 200ms;
+    /* to work in another browsers */
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+}
+
+
+
+
+#Uppercontent{
+    background: #21385b;
+    color: white;
+    text-align: center;
+}
+
+#colorToGuess {
+    font-size: 150%;
+}
+
+.Outtersquare {
+    /* 30 do comprimento da div */
+    padding-bottom: 25%;
+}
+
+.square {
+    margin: 5%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 5%;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+}
+
+.container {
+    margin-top: 1%;
+}
+
+.select {
+    background: #21385b;
+}
+
+/* highlight button on mouse over */
+button:hover {
+    color : white;
+    background: #21385b;
+}
+

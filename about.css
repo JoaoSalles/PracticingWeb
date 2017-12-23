@@ -1,0 +1,20 @@
+    h1 {
+        color : orange;
+        border-color: red;
+        border-width : 5px;
+        border-style: solid;
+    }
+
+    li  {
+        color : red;
+    }
+
+    h4 {
+        background : purple;
+    }
+
+
+    body {
+        background: url(https://abrilmdemulher.files.wordpress.com/2016/10/memes-discussao-grupo-familia-whatsapp_0.jpg?quality=90&strip=all&strip=info);
+        background-size: cover;
+    }

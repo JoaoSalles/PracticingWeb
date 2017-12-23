@@ -1,0 +1,55 @@
+#navegador {
+    background: #ffffff;
+}
+
+.navbar-default .navbar-nav  li a {
+    color: #4d4d4d;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: #4d4d4d;
+}
+
+body {
+    background: #ffffff;
+}
+
+
+#content {
+    text-align: center;
+    background: #d7d0ff;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid RGB(225, 22530, 255);
+    border-top: 2px solid RGB(225, 22530, 255);
+
+}
+
+#jumbatronFrase {
+    color : #000000;
+    text-shadow: 0px 4px 3px rgba(224,224,224,0.4),
+                 0px 8px 13px rgba(224,224,224,0.1),
+                  0px 18px 23px rgba(224,224,224,0.1);
+}
+
+
+#imagemEsquerda {
+    margin-left: 10%;
+}
+
+#imagemCentro {
+    margin-left: 5%;
+}
+
+#imagemDireita {
+    margin-left: 5%;
+}
+
+img{
+    max-height:196px;
+    max-width:196px;
+}
