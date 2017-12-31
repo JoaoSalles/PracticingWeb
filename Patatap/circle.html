@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="assets/js/lib/paperjs-v0.11.5/dist/paper-full.js"></script>
+    <link rel="stylesheet" href="assets/css/patatap.css">
+    <title>Circles</title>
+    <script type="text/paperscript" canvas="myCanvas">
+        for (var i = 1; i < 20; i++){
+            for (var j = 1; j < 20; j++){
+                var myCircle = new Path.Circle(new Point(100 * i, 100 * j), 10);
+                myCircle.fillColor = 'red';
+            }
+        }
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas" resize></canvas>
+</body>
+</html>
