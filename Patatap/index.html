@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/patatap.css">
     <title>Circles</title>
     <script type="text/paperscript" canvas="myCanvas">
+        <!-- object with all lowercase alphabetic key -->
         var keyData = {
             
             q: {
@@ -179,10 +180,14 @@
             circles.push(myCircle);
         }
 
+        
+        <!-- the function itself call onframe without stop -->
         function onFrame(){
             for (var i = 0; i < circles.length; i++){
+                <!-- decrease circle size -->
                 circles[i].scale(0.9);
                 circles[i].fillColor.hue += 1;
+                <!-- check size of scale -->
                 if(circles[i].area < 1){
                     circles[i].remove();
                     circles.splice(i, 1);
